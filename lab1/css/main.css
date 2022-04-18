@@ -1,0 +1,96 @@
+body{
+    font-family: "TimesNewRoman";
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+	height : 100vh;
+   
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom : 50px;
+	background-color : white;
+	font-size : 100%;	
+}
+
+.navbar-nav {
+  min-height: 2em;
+  margin-left: auto;
+  margin-right: 2em;
+}
+
+.navbar-text {
+	margin-left : 20px;
+	font-size : 130%;
+}
+
+img{
+	height: 55px;
+    width: 33px;
+}
+
+.table {
+	left:auto;
+	margin-top: 20px;
+	width: 100%; 
+}
+
+.slide{
+	max-width: 60rem;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.card1{
+	margin-top: 20px;
+	height: 200px;
+	margin-left: auto;
+	margin-right:auto;
+	background: url(../image/news1.jpg);
+	background-size: cover;
+}
+
+.card2{
+	margin-top: 20px;
+	height: 200px;
+	margin-left: auto;
+	margin-right:auto;
+	background: url(../image/news2.jpg);
+	background-size: cover;
+}
+
+.card3{
+	margin-top: 20px;
+	height: 200px;
+	margin-left: auto;
+	margin-right:auto;
+	background: url(../image/news3.jpg);
+	background-size: cover;
+}
+
+.card-text{
+	text-shadow: black 0 0 10px; /* Свечение */
+	font-weight: bolder;
+	color: white;
+}
+
+.card-date{
+	text-shadow: black 0 0 10px; /* Свечение */
+	font-weight: bolder;
+	color: white;
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+}
+
+.btn-primary{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}

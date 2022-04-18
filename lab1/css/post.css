@@ -1,0 +1,78 @@
+body{
+    font-family: "TimesNewRoman";
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	height : 100vh;
+   
+}
+
+
+.navbar-nav {
+  min-height: 2em;
+  margin-left: auto;
+  margin-right: 2em;
+}
+
+img{
+	height: 55px;
+    width: 33px;
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom : 50px;
+	background-color : white;
+	font-size : 100%;	
+}
+
+.navbar-text {
+	margin-left : 20px;
+	font-size : 130%;
+}
+
+.comment-wrapper{
+	margin-top: 70px;
+	max-width: 800px
+}
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+.post_img{
+	margin-left: auto;
+    margin-right: auto; 
+	width : 100%;
+	height : 500px;
+	object-fit: cover;
+}
+
+
+.display-3{
+	font-family: "Helvetica";
+	font-weight : bold;
+	margin-top : 20px;
+}
+.lh-base{
+	font-size: 10em;
+	font-family: "Helvetica";
+	margin-top : 20px;
+
+}
+
+
