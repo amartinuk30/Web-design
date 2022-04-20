@@ -55,13 +55,8 @@ img{
 
 }
 
-
-i{
-	position: absolute;
-	right: 20px;
-}
 t{
-	color: #007fff;
+	color: black;
 }
 .pull-right{
 	margin-bottom: 20px;
